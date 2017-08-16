@@ -18,7 +18,6 @@
     }
 </script>
 
-
 <style type="text/css" scoped>
     .mauticform_wrapper { max-width: 600px; margin: 10px auto; }
     .mauticform-innerform {}
@@ -53,7 +52,19 @@
             
           <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
 
-            <div id="mauticform_teste1_submit"  class="mauticform-row mauticform-button-wrapper mauticform-field-1">
+            <div id="mauticform_teste1_nome"  class="mauticform-row mauticform-text mauticform-field-1">
+                <label id="mauticform_label_teste1_nome" for="mauticform_input_teste1_nome" class="mauticform-label">Nome</label>
+                <input id="mauticform_input_teste1_nome" name="mauticform[nome]" value="" class="mauticform-input" type="text" />
+                <span class="mauticform-errormsg" style="display: none;"></span>
+            </div>
+
+            <div id="mauticform_teste1_email"  class="mauticform-row mauticform-email mauticform-field-2">
+                <label id="mauticform_label_teste1_email" for="mauticform_input_teste1_email" class="mauticform-label">E-mail</label>
+                <input id="mauticform_input_teste1_email" name="mauticform[email]" value="" class="mauticform-input" type="email" />
+                <span class="mauticform-errormsg" style="display: none;"></span>
+            </div>
+
+            <div id="mauticform_teste1_submit"  class="mauticform-row mauticform-button-wrapper mauticform-field-3">
                 <button type="submit" name="mauticform[submit]" id="mauticform_input_teste1_submit" name="mauticform[submit]" value="" class="mauticform-button btn btn-default" value="1">Submit</button>
             </div>
             </div>
