@@ -1,6 +1,6 @@
 // set the date we're counting down to
 
-var target_date = new Date('Fev, 23, 2019').getTime();
+var target_date = new Date('Feb, 23, 2019').getTime();
 
  
 
